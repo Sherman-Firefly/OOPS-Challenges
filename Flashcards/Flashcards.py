@@ -16,7 +16,7 @@ while True:
     option=input("Enter 0 if you want to add another flashcard; otherwise, enter the enter key: ")
     if(option):
         break
-    print("|n your flashcard")
+    print("\n your flashcard")
     for i in flash:
         print(">",i)
 
